@@ -1,0 +1,68 @@
+
+.BestSeller{
+margin: 70px 0;
+}
+.best-seller-wrapper {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: space-between; 
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.best-seller-card img {
+    width: 100%;
+    height: 50%;
+}
+.GetNow.quantity-control {
+    border: 2px solid gray;
+    width: 102px;
+    height: 36px;
+    margin: 9px auto;
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.GetNow.quantity-control button {
+   cursor: pointer;
+}
+.GetNow.quantity-control  span {
+    margin: 0 10px;
+}
+.best-seller-card {
+    flex: 1 1 200px;
+    max-width: 250px;
+    height: 275px;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 2px 6px 2px var(--secondary-color);
+}
+.best-seller-card h2 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--primary-color);
+}
+h2.bestSeller-Title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 0.5px;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+button.GetNow {
+    font-size: 15px;
+    margin-top: 10px;
+    border: 2px solid var(--secondary-color);
+    padding: 8px;
+    font-weight: 500;
+    color: var(--primary-color);
+    cursor: pointer;
+}

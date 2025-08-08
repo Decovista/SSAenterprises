@@ -1,0 +1,77 @@
+.Checkout-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 145px 20px;
+}
+.cart-details h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+.grand-total {
+  border: 1px solid gray;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+}
+.Checkout-wrapper button {
+  height: 35px;
+  width: 90px;
+  background: var(--secondary-color);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.checkout-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.checkout-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  border: 2px solid gray;
+}
+.name-con,
+.city-address {
+  display: flex;
+  gap: 10px;
+}
+
+.name-con input,
+.city-address input {
+  flex: 1;
+}
+
+.cart-details {
+  flex: 1;
+  min-width: 300px;
+}
+
+.cart-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-details th,
+.cart-details td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: right;
+}
+.cart-details th:first-child{
+text-align: left;
+}
+
+@media(max-width:600px){
+  .Checkout-wrapper {
+   flex-direction: column-reverse;
+}
+}

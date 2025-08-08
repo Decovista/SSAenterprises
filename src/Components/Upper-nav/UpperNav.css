@@ -1,0 +1,37 @@
+.UpperNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999999999;
+}
+ul.contact-top-wrap {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  color: var(--text-color);
+}
+.upper-bar-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background: var(--secondary-color);
+}
+ul.contact-top-wrap {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+.upper-bar-wrapper p {
+  font-size: 17px;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .upper-bar-wrapper p {
+    font-size: 9px;
+    font-weight: 700;
+  }
+  .upper-bar-wrapper {
+    height: 26px;
+    padding-top: 4px;
+  }
+}

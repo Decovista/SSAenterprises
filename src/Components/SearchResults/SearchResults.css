@@ -1,0 +1,10 @@
+.search-results .product-box-container .products-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-results .product-box-container {
+  display: flex;
+  margin-top: 132px;
+  flex-direction: column;
+}
+

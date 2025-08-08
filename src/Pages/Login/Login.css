@@ -1,0 +1,46 @@
+.Login {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  background: #fffdfd;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 99999999999;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 2px 6px 2px gray;
+}
+.Login i.fa-solid.fa-xmark {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: var(--primary-color);
+    cursor: pointer;
+    display: block;
+}
+input.name,
+input.email,
+.password {
+  border: 2px solid #ff6815;
+  margin: 17px;
+  text-align: center;
+}
+.Login button {
+  height: 37px;
+  width: 100px;
+  margin: 0 auto 23px;
+  color: white;
+  font-weight: 500;
+  background: #ff6815;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+form.login-form input {
+    box-shadow: 1px 1px 4px gray;
+    width: 80%;
+    margin: 13px auto;
+    height: 40px;
+    text-align: center;
+}

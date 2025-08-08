@@ -1,0 +1,141 @@
+.AddToCart {
+  width: 100%;
+  height: auto;
+  background: white;
+  top: 10%;
+  padding: 20px;
+  left: 3%;
+  border-radius: 8px;
+  display: flex;
+  padding-top: 170px;
+  gap: 40px;
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.card-details {
+  position: relative;
+  width: 32%;
+  min-height: 100vh;
+  height: auto;
+}
+.card-details-wrapper {
+  position: sticky;
+  top: 120px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  gap: 22px;
+  box-shadow: 0px -1px 8px 2px gray;
+  padding: 30px 10px;
+}
+.cart-list {
+  width: 60%;
+  box-shadow: 0px 1px 3px gray;
+  padding: 10px;
+  height: fit-content;
+}
+.AddToCart h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+button.remove-btn {
+  padding: 10px;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+.add-btn button {
+  margin: 0 20px;
+  font-size: 15px;
+}
+
+td.name img {
+  height: 70px;
+  width: 100%;
+}
+table.cart-table {
+  width: 100%;
+}
+td.name {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 80px;
+  text-align: center;
+  color: #ff6815;
+  font-weight: 600;
+}
+p.empty-msg {
+  text-align: center;
+}
+.AddToCart tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 1px 2px 6px 3px #cebbbb;
+  padding-bottom: 10px;
+  padding: 9px 18px;
+  margin-bottom: 18px;
+  border-radius: 4px;
+}
+.GrandTotal {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+}
+i.fa-solid.fa-xmark.cartcross {
+  position: absolute;
+  right: 11px;
+  font-size: 30px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.AddToCart tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+button.proceedtocheckout {
+  height: 47px;
+  background: var(--primary-color);
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+}
+.proceed-tocheckout {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  td.name {
+    font-size: 12px;
+  }
+  td.name img {
+    height: 46px;
+  }
+  .AddToCart td {
+    font-size: 12px;
+  }
+  .AddToCart tr {
+    font-size: 11px;
+  }
+}
+@media (max-width: 768px) {
+  .AddToCart {
+    flex-direction: column;
+  }
+  .card-details-wrapper {
+    position: unset;
+    width: 100%;
+  }
+  .card-details,
+  .cart-list {
+    width: 100%;
+  }
+}

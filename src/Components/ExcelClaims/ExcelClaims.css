@@ -1,0 +1,60 @@
+.excel-section {
+  padding: 40px 20px;
+  text-align: center;
+  background: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.excel-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+}
+.excel-section h2 span {
+  color: var(--primary-color);
+}
+
+.claims-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.claim-card {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    width: 260px;
+    box-shadow: 1px 3px 5px 1px var(--secondary-color);
+    transition: transform 0.3s ease;
+}
+
+.claim-card:hover {
+  transform: translateY(-5px);
+}
+
+.claim-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.claim-icon {
+  font-size: 20px;
+}
+
+.claim-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+.claim-card p {
+    font-size: 14px;
+    color: var(--secondry-color);
+    line-height: 1.4;
+}

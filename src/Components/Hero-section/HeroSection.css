@@ -1,0 +1,21 @@
+.herosection .slick-prev{
+    left: 5px !important;
+    z-index: 99999;
+}
+.herosection.w-full.h-\[400px\] {
+    margin-top: 99px;
+}
+.herosection .slick-next{
+    right: 5px !important;
+    z-index: 999999;
+}
+.slick-slider.slick-initialized, .slick-list,.herosection .slick-track, .slick-slide.slick-active.slick-current div,.herosection .slick-slide img{
+    height: 100% !important;
+}
+@media(max-width:768px){
+.herosection .slick-slide img {
+    display: block;
+    height:368px !important;
+    margin-top: 34px;
+}
+}

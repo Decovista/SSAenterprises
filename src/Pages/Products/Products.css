@@ -1,0 +1,28 @@
+.Products {
+    max-width: 1355px;
+    margin: 32px auto;
+}
+button.addtoQuatation {
+  height: 40px;
+  background: #ff6815;
+  padding: 8px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+ul.products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  gap: 21px;
+}
+.product-title-main {
+  margin-top: 152px;
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: 33px;
+  font-weight: 600;
+  color: #ff6815;
+  text-decoration: underline;
+}

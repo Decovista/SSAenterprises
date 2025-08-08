@@ -1,0 +1,64 @@
+.middleBanner {
+  height: 50vh;
+  position: relative;
+  margin-bottom: 40px;
+}
+.middleBanner img {
+  object-fit: cover;
+  height: 50vh;
+  width: 100%;
+}
+h2.middleBanner-wrapper-head {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
+p.middleBanner-wrapper-para {
+  font-size: 16px;
+  margin-top: 15px;
+  color: white;
+}
+.middleBanner-wrapper-overlay {
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  background: #1f447b;
+  opacity: 70%;
+}
+button.middleBanner-wrapper-btn {
+  font-size: 15px;
+  background: white;
+  padding: 10px;
+  color: red;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+@media (max-width: 600px) {
+  p.middleBanner-wrapper-para {
+    font-size: 10px;
+  }
+  button.middleBanner-wrapper-btn {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .middleBanner {
+    height: 50vh;
+  }
+  .middleBanner-wrapper {
+    height: 100%;
+  }
+  .middleBanner img {
+    height: 100%;
+  }
+}

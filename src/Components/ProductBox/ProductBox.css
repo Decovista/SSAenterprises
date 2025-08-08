@@ -1,0 +1,122 @@
+.product-box-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.category-filter {
+  width: 26%;
+  height: fit-content;
+  box-shadow: 0px 0px 2px var(--secondary-color);
+  padding: 10px;
+}
+.category-filter .title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.category-filter ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category-filter li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+h2.title-p {
+    font-size: 22px;
+    margin: 0 0 20px;
+    font-weight: 500;
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 12px;
+}
+.category-filter li:hover,
+.category-filter li.active {
+  background-color: #885336;
+  color: #fff;
+  font-weight: bold;
+}
+img.Product-img {
+    height: 116px;
+    width: 100%;
+}
+
+.product-list {
+  flex-grow: 1;
+}
+
+.category-filter .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background: var(--primary-color);
+    padding: 5px;
+    border-radius: 4px;
+    color: #fff;
+}
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(183px, 1fr));
+  gap: 20px;
+}
+.product-card {
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 4px var(--secondary-color);
+}
+.product-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #ff6815;
+}
+.add-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: var(--primary-color);
+}
+td.name img {
+    height: 51px;
+    width: 53px;
+    object-fit: fill;
+}
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(163px, 1fr));
+  }
+  .product-card {
+    margin: 0 auto;
+}
+}
+@media (max-width: 500px) {
+  .product-box-container {
+    flex-direction: column !important;
+  }
+  .category-filter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .category-filter ul {
+    display: flex;
+    gap: 0px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 370px) {
+ .category-filter ul {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,44 @@
+.card-icon img {
+  height: 77px;
+}
+.testmon-card {
+  flex: 220px 1 1;
+  box-shadow: 0px 2px 6px 1px gray;
+  padding: 10px;
+  border-radius: 4px;
+}
+.card-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testmon-card p {
+  color: var(--psecondary-color);
+}
+.testmon-card h2 {
+  color: var(--primary-color);
+}
+h2.test-title {
+  text-align: center;
+  font-size: 27px;
+  margin: 20px 0;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.Testimonials-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 20px;
+}
+.testmon-card {
+  flex: 220px 1 1;
+}
+.Testimonials-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  max-width: 1029px;
+  margin: 0 auto;
+  gap: 37px;
+}
